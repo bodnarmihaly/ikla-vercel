@@ -113,7 +113,7 @@
         if (e.isIntersecting) { e.target.classList.add("in"); rev.unobserve(e.target); }
       });
     }, { rootMargin: "0px 0px -8% 0px" });
-    document.querySelectorAll(".stat, .intro-card, .photo, .section-head, .leg, .video-card, .video.featured, .chips, .note").forEach(function (el) {
+    document.querySelectorAll(".intro-card, .photo, .section-head, .leg, .video-card, .video.featured, .chips, .note").forEach(function (el) {
       el.classList.add("reveal");
       rev.observe(el);
     });
