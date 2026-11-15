@@ -83,8 +83,6 @@ h1, h2, h3 { font-family: "Space Grotesk", "Inter", sans-serif; line-height: 1.1
 .btn:hover { transform: translateY(-2px); }
 .btn-primary { background: var(--accent); color: var(--accent-ink); box-shadow: 0 8px 30px rgba(47, 210, 122, .35); }
 .btn-primary:hover { color: var(--accent-ink); background: var(--accent-2); }
-.btn-ghost { color: var(--text); background: rgba(255, 255, 255, .08); border: 1px solid rgba(255, 255, 255, .18); backdrop-filter: blur(6px); }
-.btn-ghost:hover { color: var(--text); background: rgba(255, 255, 255, .14); }
 .hero-caption { position: absolute; right: 20px; bottom: 16px; margin: 0; font-size: .8rem; color: rgba(231, 239, 233, .6); font-style: italic; }
 
 /* ---------- STATS ---------- */
