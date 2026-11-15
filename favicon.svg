@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="30" fill="#0b0f0d"/>
+  <circle cx="32" cy="32" r="22" fill="#2fd27a"/>
+  <path d="M10 32a22 8 0 0 0 44 0" fill="none" stroke="#04140b" stroke-width="3"/>
+  <text x="32" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#04140b">360</text>
+</svg>

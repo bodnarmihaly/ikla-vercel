@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oandu–Ikla 360° Project</title>
+  <meta name="description" content="The Oandu-Ikla 360° Project – capturing a 370 km long Estonian hiking trail with a 360° camera, published on Google Street View and YouTube.">
+  <meta name="theme-color" content="#0b0f0d">
+  <meta property="og:title" content="Oandu–Ikla 360° Project">
+  <meta property="og:description" content="Capturing a 370 km long Estonian hiking trail with a 360° camera.">
+  <meta property="og:image" content="/images/korvemaa-panorama.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <a href="#top" class="brand"><span class="brand-dot"></span>Oandu–Ikla <span class="accent">360°</span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#highlights">Highlights</a>
+      <a href="#locations">Street View</a>
+      <a href="#journey">Full journey</a>
+      <a href="#tech">Tech</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-bg" style="background-image:url('/images/korvemaa-panorama.jpg')"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content container">
+    <p class="eyebrow">🇪🇪 Estonia · hiking &amp; biking · 360° camera</p>
+    <h1>Oandu–Ikla <span class="accent">360°</span> Project</h1>
+    <p class="lead">Capturing a 370 km long Estonian hiking trail with a 360° camera — from the Gulf of Finland to the Latvian border.</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="#locations">Explore on Street View</a>
+      <a class="btn btn-ghost" href="#journey">Watch the journey</a>
+    </div>
+  </div>
+  <p class="hero-caption">Somewhere in North-Kõrvemaa</p>
+</section>
+
+<section class="stats container">
+  <div class="stat"><span class="stat-num">370</span><span class="stat-label">km of trail</span></div>
+  <div class="stat"><span class="stat-num">6</span><span class="stat-label">sections</span></div>
+  <div class="stat"><span class="stat-num">63</span><span class="stat-label">Street View spots</span></div>
+  <div class="stat"><span class="stat-num">8</span><span class="stat-label">360° videos</span></div>
+</section>
+
+<main>
+
+  <!-- ABOUT -->
+  <section id="about" class="section container">
+    <div class="intro-card">
+      <h2>Hey there! 👋</h2>
+      <p>
+        Welcome to the summary page of my hobby project. I wandered (hiked &amp; biked) across Estonia along the
+        <a href="https://loodusegakoos.ee/where-to-go/hiking-route/oandu-aegviidu-ikla-hiking-route" target="_blank" rel="noopener">Oandu–Aegviidu–Ikla route</a>
+        with a 360° camera and made the experience public on
+        <a href="#locations">Google Street View</a> and <a href="#journey">YouTube</a>.
+        Happy browsing!
+      </p>
+    </div>
+
+    <div class="gallery">
+      <figure class="photo">
+        <img src="/images/fisheye-loosalu.jpg" alt="Tiny-planet fisheye view of a boardwalk at Loosalu Lake" width="1045" height="881">
+        <figcaption>Fisheye view at Loosalu Lake</figcaption>
+      </figure>
+      <figure class="photo">
+        <img src="/images/route-map.jpg" alt="Map of Estonia showing the captured 370 km path in blue" width="615" height="438">
+        <figcaption>Captured path on Street View (370 km)</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- HIGHLIGHTS -->
+  <section id="highlights" class="section container">
+    <div class="section-head">
+      <span class="kicker">Highlights</span>
+      <h2>The best bits in a few minutes</h2>
+    </div>
+    <div class="video featured" data-yt="EvQvbPWjxhE" data-title="Oandu–Ikla highlights"></div>
+  </section>
+
+  <!-- STREET VIEW LOCATIONS -->
+  <section id="locations" class="section container">
+    <div class="section-head">
+      <span class="kicker">Google Street View</span>
+      <h2>Jump to certain locations</h2>
+      <p class="muted">63 hand-picked spots along the trail, grouped into six sections. Each link opens Google Maps in 360°.</p>
+    </div>
+
+    <div class="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input type="search" id="loc-search" placeholder="Search locations… e.g. bog, campsite, tower" autocomplete="off">
+    </div>
+    <p class="no-results" hidden>No locations match your search.</p>
+
+    <div class="legs">
+
+      <article class="leg">
+        <header><span class="leg-num">1</span><h3>Oandu – Viru bog</h3></header>
+        <ol class="loc-list">
+          <li value="1"><a href="https://www.google.com/maps/@59.5649466,26.1019818,3a,90y,316.18h,90.05t/data=!3m7!1e1!3m5!1sAF1QipPOW4vk_kXmydFD_hMRAXOTA0VqL5MeBXdB49Ty!2e10!3e11!7i4096!8i2048?coh=205409&amp;entry=ttu" target="_blank" rel="noopener">Oandu Visitor Centre (0 km)</a></li>
+          <li value="2"><a href="https://www.google.com/maps/@59.5785949,25.9630727,3a,75y,34.11h,66.16t/data=!3m6!1e1!3m4!1sAF1QipNaPdNQpTmEdmCVnCPBya92tpamCjS5MqbBiAHA!2e10!7i4096!8i2048?coh=205409&amp;entry=ttu" target="_blank" rel="noopener">Võsu beach</a></li>
+          <li value="3"><a href="https://www.google.com/maps/@59.5040716,25.7882254,3a,75y,352.62h,86.55t/data=!3m8!1e1!3m6!1sAF1QipOEPnAp3BX4F2UR1RCIlIsHC3g4gm9G0TdYRsRu!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOEPnAp3BX4F2UR1RCIlIsHC3g4gm9G0TdYRsRu%3Dw203-h100-k-no-pi-0.3395466-ya38.130573-ro-0.60254514-fo100!7i4096!8i2048?coh=205409&amp;entry=ttu" target="_blank" rel="noopener">Nõmmeveski upper campfire site</a></li>
+          <li value="4"><a href="https://maps.app.goo.gl/V5Fnq8tRj382DEvk8" target="_blank" rel="noopener">Nõmmeveski lower campfire site</a></li>
+          <li value="5"><a href="https://maps.app.goo.gl/8L6h1V6X1mNucYHb6" target="_blank" rel="noopener">Kalmeoja campfire site</a></li>
+          <li value="6"><a href="https://maps.app.goo.gl/J3dLLKc7E2KAEXxF6" target="_blank" rel="noopener">Viru bog swimming place</a></li>
+          <li value="7"><a href="https://maps.app.goo.gl/MfU7B2huvdDYFV5L7" target="_blank" rel="noopener">Viru bog tower</a></li>
+        </ol>
+      </article>
+
+      <article class="leg">
+        <header><span class="leg-num">2</span><h3>Viru bog – Aegviidu</h3></header>
+        <ol class="loc-list">
+          <li value="8"><a href="https://maps.app.goo.gl/GjGYa9oLbJbyivg29" target="_blank" rel="noopener">Tallinn-Narva road start</a></li>
+          <li value="9"><a href="https://maps.app.goo.gl/hGQLEBdeY3LTHSZ47" target="_blank" rel="noopener">Järvi Pikkjärve campsite</a></li>
+          <li value="10"><a href="https://maps.app.goo.gl/NnFzNmyzj8yVq7Ay8" target="_blank" rel="noopener">Kõnnu Suursoo lookout</a></li>
+          <li value="11"><a href="https://maps.app.goo.gl/Vu2zpSd1fBwcy3Ef8" target="_blank" rel="noopener">Umbjärv</a></li>
+          <li value="12"><a href="https://maps.app.goo.gl/mnBVXr91xFPkZJ8L8" target="_blank" rel="noopener">Paukjärve tower</a></li>
+          <li value="13"><a href="https://maps.app.goo.gl/pj8bAebNg5uhTFFs7" target="_blank" rel="noopener">Jussi campsite</a></li>
+          <li value="14"><a href="https://maps.app.goo.gl/6YNGDFU3Abi2QkHB9" target="_blank" rel="noopener">Jussi Linajärv</a></li>
+          <li value="15"><a href="https://maps.app.goo.gl/K6hn7uqD8KFGWsjd7" target="_blank" rel="noopener">Soodla river</a></li>
+          <li value="16"><a href="https://maps.app.goo.gl/E5pbgNiaz5kz3xg58" target="_blank" rel="noopener">Harakajärv</a></li>
+          <li value="17"><a href="https://maps.app.goo.gl/z1eFn3e6AiDiQrK18" target="_blank" rel="noopener">Aegviidu railway station</a></li>
+        </ol>
+      </article>
+
+      <article class="leg">
+        <header><span class="leg-num">3</span><h3>Aegviidu – Lelle</h3></header>
+        <ol class="loc-list">
+          <li value="18"><a href="https://maps.app.goo.gl/uFnLtiJD5kHQwDL89" target="_blank" rel="noopener">Nikerjärve campsite</a></li>
+          <li value="19"><a href="https://maps.app.goo.gl/SGoaX1dqx3u8xxtV9" target="_blank" rel="noopener">Mägede crossroad</a></li>
+          <li value="20"><a href="https://maps.app.goo.gl/iKbWzpNuRMKjAfad7" target="_blank" rel="noopener">Valgehobusemäe Ski and Recreation Center</a></li>
+          <li value="21"><a href="https://maps.app.goo.gl/gGHoLE989RK4yJEg8" target="_blank" rel="noopener">Liivoja river crossing</a></li>
+          <li value="22"><a href="https://maps.app.goo.gl/k2RKGj6G3as1tYJa8" target="_blank" rel="noopener">Perila-Jäneda tarmac road crossing</a></li>
+          <li value="23"><a href="https://maps.app.goo.gl/oma6zGkFJ6f71jg58" target="_blank" rel="noopener">Kalajärve campsite</a></li>
+          <li value="24"><a href="https://maps.app.goo.gl/yvuhGXYi4eK3Xg8VA" target="_blank" rel="noopener">Noku campsite</a></li>
+          <li value="25"><a href="https://maps.app.goo.gl/qBgaEJFWSKbqPRzJ8" target="_blank" rel="noopener">Kakerdi Lake</a></li>
+          <li value="26"><a href="https://maps.app.goo.gl/sdXcgy9JRT7AS8eX6" target="_blank" rel="noopener">Tallinn-Tartu road overpass</a></li>
+          <li value="27"><a href="https://maps.app.goo.gl/tjjG7TfJGqsnUDeG8" target="_blank" rel="noopener">Virla</a></li>
+          <li value="28"><a href="https://maps.app.goo.gl/VcT43ZWWLMQ9FZvy8" target="_blank" rel="noopener">Hirvelaane campsite</a></li>
+          <li value="29"><a href="https://maps.app.goo.gl/WqgndtzY8SAdYg9r7" target="_blank" rel="noopener">Loosalu campsite</a></li>
+          <li value="30"><a href="https://maps.app.goo.gl/MVmHea3v3hp7nLho8" target="_blank" rel="noopener">Loosalu bog</a></li>
+          <li value="31"><a href="https://maps.app.goo.gl/9GwF9fWJ2SC5BQEd9" target="_blank" rel="noopener">Lelle railway crossing</a></li>
+        </ol>
+      </article>
+
+      <article class="leg">
+        <header><span class="leg-num">4</span><h3>Lelle – Luite campsite</h3></header>
+        <ol class="loc-list">
+          <li value="32"><a href="https://maps.app.goo.gl/66wxnafYzPwFvm4BA" target="_blank" rel="noopener">Tillniidu campsite</a></li>
+          <li value="33"><a href="https://maps.app.goo.gl/RgCPJoByuw1Srdqq8" target="_blank" rel="noopener">Mukri loodusrada start</a></li>
+          <li value="34"><a href="https://maps.app.goo.gl/v2QHCTqnzwphBJxR6" target="_blank" rel="noopener">Mukri bog</a></li>
+          <li value="35"><a href="https://maps.app.goo.gl/tikeXWn7AueSmDaPA" target="_blank" rel="noopener">Mukri tower</a></li>
+          <li value="36"><a href="https://maps.app.goo.gl/oLCY6UqKjq6kX1xu6" target="_blank" rel="noopener">Mukri campsite</a></li>
+          <li value="37"><a href="https://maps.app.goo.gl/ZFqYBzmFryRz4MEX9" target="_blank" rel="noopener">Võidula</a></li>
+          <li value="38"><a href="https://maps.app.goo.gl/qNYqZecc9vnPbeZW9" target="_blank" rel="noopener">Kellissaare campsite</a></li>
+          <li value="39"><a href="https://maps.app.goo.gl/P3npPvSjz6UEdJVQ7" target="_blank" rel="noopener">Kurgja – Pärnu river bridge</a></li>
+          <li value="40"><a href="https://maps.app.goo.gl/YJG88QNpAfxrUpT76" target="_blank" rel="noopener">Saeveski forest hut</a></li>
+          <li value="41"><a href="https://maps.app.goo.gl/Hf8pdSDCxKLEnpwr9" target="_blank" rel="noopener">Luite campsite</a></li>
+        </ol>
+      </article>
+
+      <article class="leg">
+        <header><span class="leg-num">5</span><h3>Luite campsite – Kilingi-Nõmme</h3></header>
+        <ol class="loc-list">
+          <li value="42"><a href="https://maps.app.goo.gl/CorruzuJ6UFTjBaw7" target="_blank" rel="noopener">Navesti river</a></li>
+          <li value="43"><a href="https://maps.app.goo.gl/yEbW8oXNvuQPpVB37" target="_blank" rel="noopener">Hüpassaare turn</a></li>
+          <li value="44"><a href="https://maps.app.goo.gl/KikJbPPeLUuiz9uJ9" target="_blank" rel="noopener">Oksa bridge</a></li>
+          <li value="45"><a href="https://maps.app.goo.gl/wcGr4G5ysLCJuX9P7" target="_blank" rel="noopener">Oksa rest</a></li>
+          <li value="46"><a href="https://maps.app.goo.gl/BKKsv26dCBUUrt2h8" target="_blank" rel="noopener">Kuusekäära bridge – Raudna river</a></li>
+          <li value="47"><a href="https://maps.app.goo.gl/jcXizsQkuLb5LRkM9" target="_blank" rel="noopener">Sooma Nature Centre</a></li>
+          <li value="48"><a href="https://maps.app.goo.gl/oYqpDYir2qw6nQxe8" target="_blank" rel="noopener">Läti campsite</a></li>
+          <li value="49"><a href="https://maps.app.goo.gl/D3ttU44YF3ayWv2y6" target="_blank" rel="noopener">Pertlimetsa campsite</a></li>
+          <li value="50"><a href="https://maps.app.goo.gl/dtCbgJ2xfzFN9mru7" target="_blank" rel="noopener">Kopra</a></li>
+          <li value="51"><a href="https://maps.app.goo.gl/TigT4jQvnmPx8J9p7" target="_blank" rel="noopener">Road #6 crossing</a></li>
+          <li value="52"><a href="https://maps.app.goo.gl/8pah6wFDTv5eFyFbA" target="_blank" rel="noopener">Kilingi-Nõmme campsite</a></li>
+        </ol>
+      </article>
+
+      <article class="leg">
+        <header><span class="leg-num">6</span><h3>Kilingi-Nõmme – Ikla</h3></header>
+        <ol class="loc-list">
+          <li value="53"><a href="https://maps.app.goo.gl/2XSVznZz6bmWqN5m9" target="_blank" rel="noopener">Reiu river bridge</a></li>
+          <li value="54"><a href="https://maps.app.goo.gl/egnhb7e38XEGqK9J7" target="_blank" rel="noopener">Rae campsite I</a></li>
+          <li value="55"><a href="https://maps.app.goo.gl/arS8oisrNzYVfZ2r5" target="_blank" rel="noopener">Rae campsite II</a></li>
+          <li value="56"><a href="https://maps.app.goo.gl/ohBUeEx52w3J6oer9" target="_blank" rel="noopener">The Bear 🐻 😉</a></li>
+          <li value="57"><a href="https://maps.app.goo.gl/ZC6cD23iM2QJShgE9" target="_blank" rel="noopener">Laiksaare forest hut</a></li>
+          <li value="58"><a href="https://maps.app.goo.gl/K8hn9GumUeAr5aXR8" target="_blank" rel="noopener">Laiksaare nature trail – last bridge</a></li>
+          <li value="59"><a href="https://maps.app.goo.gl/aVtqo5vQRiPjhqNC8" target="_blank" rel="noopener">Kabli RMK Visitor Centre</a></li>
+          <li value="60"><a href="https://maps.app.goo.gl/8JzcsVUR8Mvjjgpo6" target="_blank" rel="noopener">Kabli nature study trail</a></li>
+          <li value="61"><a href="https://maps.app.goo.gl/yidP2TUteC8PLFjQ7" target="_blank" rel="noopener">Kabli beach</a></li>
+          <li value="62"><a href="https://maps.app.goo.gl/TEAhjnuWFPpDZeJcA" target="_blank" rel="noopener">Orajõe</a></li>
+          <li value="63"><a href="https://maps.app.goo.gl/cu24fBDknQrh7YJQ6" target="_blank" rel="noopener">Estonian-Latvian border point</a></li>
+        </ol>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- FULL JOURNEY -->
+  <section id="journey" class="section container">
+    <div class="section-head">
+      <span class="kicker">YouTube · 360°</span>
+      <h2>Watch the entire journey in 360° mode</h2>
+      <p class="muted">Drag inside the player (or move your phone) to look around. Videos load when you press play.</p>
+    </div>
+
+    <div class="video-grid">
+      <article class="video-card">
+        <div class="video" data-yt="9VIjfhz6H_U" data-title="Oandu – Nõmmeveski campsite"></div>
+        <div class="video-meta"><span class="seg">Part 1</span><h3>Oandu – Nõmmeveski campsite</h3></div>
+      </article>
+      <article class="video-card">
+        <div class="video" data-yt="dbsRkpzW634" data-title="Nõmmeveski campsite – 56th km"></div>
+        <div class="video-meta"><span class="seg">Part 2</span><h3>Nõmmeveski campsite – 56th km</h3></div>
+      </article>
+      <article class="video-card">
+        <div class="video" data-yt="ZImaZ8QNB9Y" data-start="392" data-title="56th km – Aegviidu"></div>
+        <div class="video-meta"><span class="seg">Part 3</span><h3>56th km – Aegviidu</h3><span class="start">starts at 6:32</span></div>
+      </article>
+      <article class="video-card">
+        <div class="video" data-yt="wkLEkdOSI80" data-start="1130" data-title="Aegviidu – Ardu"></div>
+        <div class="video-meta"><span class="seg">Part 4</span><h3>Aegviidu – Ardu</h3><span class="start">starts at 18:50</span></div>
+      </article>
+      <article class="video-card">
+        <div class="video" data-yt="o7ec7M4uuy4" data-start="1534" data-title="Ardu – Lelle"></div>
+        <div class="video-meta"><span class="seg">Part 5</span><h3>Ardu – Lelle</h3><span class="start">starts at 25:34</span></div>
+      </article>
+      <article class="video-card">
+        <div class="video" data-yt="HtdMoB38MgU" data-start="970" data-title="Lelle – Vanaõue"></div>
+        <div class="video-meta"><span class="seg">Part 6</span><h3>Lelle – Vanaõue</h3><span class="start">starts at 16:10</span></div>
+      </article>
+      <article class="video-card">
+        <div class="video" data-yt="qqYFJSGGm3s" data-start="1159" data-title="Vanaõue – Kilingi-Nõmme"></div>
+        <div class="video-meta"><span class="seg">Part 7</span><h3>Vanaõue – Kilingi-Nõmme</h3><span class="start">starts at 19:19</span></div>
+      </article>
+      <article class="video-card">
+        <div class="video" data-yt="7dN57JvBPXU" data-title="Kilingi-Nõmme – Kabli"></div>
+        <div class="video-meta"><span class="seg">Part 8</span><h3>Kilingi-Nõmme – Kabli</h3></div>
+      </article>
+    </div>
+
+    <div class="note">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v.01M12 11v5"/></svg>
+      <p>The <strong>Kabli – Ikla</strong> section is available on <a href="#locations">Street View</a> only.</p>
+    </div>
+  </section>
+
+  <!-- TECH -->
+  <section id="tech" class="section container">
+    <div class="section-head">
+      <span class="kicker">Behind the scenes</span>
+      <h2>Tools and tech stack</h2>
+    </div>
+    <ul class="chips">
+      <li>GoPro Max</li>
+      <li>GoPro Player</li>
+      <li>GoPro Telemetry Extractor Free</li>
+      <li>nadirpatch.com</li>
+      <li>Python</li>
+      <li>exiftool</li>
+      <li>ffmpeg</li>
+      <li>Wondershare Filmora</li>
+      <li>StreetView Studio</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p><strong>Oandu–Ikla 360° Project</strong> — capturing a 370 km long Estonian hiking trail with a 360° camera.</p>
+    <p class="muted">Trail info: <a href="https://loodusegakoos.ee/where-to-go/hiking-route/oandu-aegviidu-ikla-hiking-route" target="_blank" rel="noopener">RMK – Oandu–Aegviidu–Ikla hiking route</a></p>
+    <a href="#top" class="to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="/app.js" defer></script>
+</body>
+</html>
